@@ -105,3 +105,18 @@ h1 {
 .delete-btn:hover {
     background-color: #bd2130;
 }
+body.dark {
+    background-color: #121212;
+    color: white;
+}
+
+body.dark .container {
+    background-color: #1e1e1e;
+}
+
+body.dark input, 
+body.dark button {
+    background-color: #333;
+    color: white;
+    border: 1px solid #555;
+}

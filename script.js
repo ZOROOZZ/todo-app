@@ -82,3 +82,6 @@ document.getElementById("clearAllBtn").addEventListener("click", () => {
     saveTasks();
 });
 document.getElementById("date").textContent = new Date().toLocaleDateString();
+document.getElementById("toggleThemeBtn").addEventListener("click", () => {
+    document.body.classList.toggle("dark");
+});
